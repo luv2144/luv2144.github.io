@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="10" viewBox="0 0 77 10">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        font-size: 13px;
+        text-anchor: middle;
+        font-family: "Segoe UI";
+        font-style: italic;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #82699d;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#959595"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-1">
+    <text id="Read_more" data-name="Read more" class="cls-2" x="30" y="10">Read more</text>
+    <path class="cls-3" d="M77,6.505l-4.122,3.5V7.9H66V5.078h6.878V3.005Z"/>
+  </g>
+</svg>
